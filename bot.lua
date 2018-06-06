@@ -40,7 +40,7 @@ function get_bot (i, adigram)
   end
   function reload(chat_id,msg_id)
     loadfile("./bot-BOT-ID.lua")()
-    send(chat_id, msg_id, "<code>ربات با موفقیت ریست شد و اماده به کار است✔️</code>\n➖➖➖\n🚀کانال ما : @etehad_arazel\n😉سازنده : @persiancyber1")
+    send(chat_id, msg_id, "<code>ساخته شده توسط کاظم")
   end
   function is_adigram(msg)
     local var = false
@@ -321,8 +321,7 @@ function get_bot (i, adigram)
 🔹 <b>]] .. tostring(maxsg)..[[</b><code> سوپرگروه</code> 🔸
 
 <code>➖➖➖➖</code>
-🚀کانال ما : @etehad_arazel
-😉سازنده : @persiancyber1]]
+ساخته شده توسط کاظم
 
                           return send(msg.chat_id_, 0, text)
                         elseif (text:match("send") or text:match("ارسال") and msg.reply_to_message_id_ ~= 0) then
